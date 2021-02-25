@@ -234,7 +234,7 @@ app.insertText = function () {
   let dimTextCanvas = parseInt(document.getElementById("dimTextCanvas").value);
   let colorTextCanvas = document.getElementById("colorTextCanvas").value;
 
-  //Folosirea functiei parseInt desi se pute evita deoarece value intoarce direct tipul de data introdus
+  //Se foloseste functia parseInt desi se putea evita ,deoarece value intoarce direct tipul de data introdus ca input
   let textPozY = parseInt(document.getElementById("tpozYCanvas").value);
   let textPozX = parseInt(document.getElementById("tpozXCanvas").value);
 
@@ -309,7 +309,7 @@ app.load = function () {
 
       let btnInsertText = document.getElementById("btnText");
 
-      //Apelul functiei selectImage() se face in cadrul unei alte functii ,desi se putea crea direct o 
+      //Apelul functiei selectImage() se face in cadrul unei alte functii ,desi se putea crea direct o
       //functie care sa contina body ul functiei selectImage()
       btnInsertText.addEventListener("click", function () {
         app.selectImage();
