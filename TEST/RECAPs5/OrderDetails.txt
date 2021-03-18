@@ -1,0 +1,8 @@
+Lavazza,Italy,10.0
+Lavazza,Italy,10.0
+Lavazza,Italy,10.0
+Lavazza,Italy,10.0
+Kenya,Kenya,14.0
+Kenya,Kenya,14.0
+Kenya,Kenya,14.0
+Columbia,Columbia,13.0
