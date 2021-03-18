@@ -10,6 +10,7 @@ public class Coffe implements Serializable{
 	private String beverageName;
 	private String CoffeType;
 	private double CoffePrice;
+	private int day;
 	
 	public Coffe() {
 		
